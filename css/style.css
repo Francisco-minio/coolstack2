@@ -5915,6 +5915,7 @@ a.brand:focus {
     letter-spacing: -0.05em;
     margin: 0;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 .text-display-1 {
@@ -7259,7 +7260,22 @@ a.brand:focus {
 
 /* 8.5 Min Height 500px */
 
+@media (min-height: 360px) {
+    .display-2 {
+        font-size: 3.5rem;
+        overflow: hidden;
+    }
+    #pp-nav .pp-nav-up,
+    #pp-nav .pp-nav-down {
+        display: block;
+    }
+}
+
 @media (min-height: 500px) {
+    .display-2 {
+        font-size: 4rem;
+        overflow: hidden;
+    }
     #pp-nav .pp-nav-up,
     #pp-nav .pp-nav-down {
         display: block;
